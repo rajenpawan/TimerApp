@@ -1,1 +1,1 @@
-React Weather Application2
+A simple Timer Application
