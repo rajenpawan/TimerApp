@@ -7,7 +7,7 @@ return(
     <Navi/>
   <div>
     <div>
-
+<h1>Main</h1>
   {props.children}
     </div>
   </div>
