@@ -13,7 +13,7 @@ var Navi = React.createClass({
           </li>
 
           <li>
-            <Link to="/countdown" activeClassName="active-link">CountDown</Link>
+            <Link to="/countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>

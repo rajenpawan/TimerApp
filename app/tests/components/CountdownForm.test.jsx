@@ -26,9 +26,9 @@ it("Should Not Have Been Called if invalid seconds entered", () => {
   var countdownForm = TestUtils.renderIntoDocument(<CountdownForm onSetCountdown={spy}/>);
   var $el = $(ReactDOM.findDOMNode(countdownForm));
 
-  countdownForm.refs.seconds.value = '';
+  countdownForm.refs.seconds.value = 'abcd';
   TestUtils.Simulate.submit($el.find('form')[0]);
 
-  expect(spy).toNotHaveBeenCalled('');
+  expect(spy).toNotHaveBeenCalled('abcd');
 });
 });

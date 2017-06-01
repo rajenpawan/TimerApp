@@ -1,7 +1,7 @@
 {
   "name": "BoilerPlate",
   "version": "1.0.0",
-  "description": "it is an weather web application",
+  "description": "it is an ReactTimer web application",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
